@@ -3,7 +3,8 @@
 
 Movie Recommendation System based on TfidfVectorizer and cosine similarity function 
 
-### Cosine Similarity : Cosine similarity is a measure used to determine the similarity between two vectors in a high-dimensional space. It calculates the cosine of the angle between the two vectors and returns a value between -1 and 1.
+### Cosine Similarity : 
+   Cosine similarity is a measure used to determine the similarity between two vectors in a high-dimensional space. It calculates the cosine of the angle between the two vectors and returns a value between -1 and 1.
 
 ![image](https://user-images.githubusercontent.com/78251168/227769415-0367c033-f3fe-4b32-bf5d-36d05879e3fc.png)
 
@@ -21,3 +22,7 @@ The "term frequency" refers to the number of times a word appears in a particula
 
 TfidfVectorizer creates a sparse matrix representation of the text, which can be used for further analysis, such as clustering, classification, and information retrieval. It is commonly used in applications such as search engines, content recommendation systems, and sentiment analysis.
 
+
+### Collaborated by : [Ankit Nainwal](https://github.com/nano-bot01)
+
+### Please ⭐⭐⭐⭐
