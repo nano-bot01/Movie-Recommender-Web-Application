@@ -22,6 +22,40 @@ The "term frequency" refers to the number of times a word appears in a particula
 
 TfidfVectorizer creates a sparse matrix representation of the text, which can be used for further analysis, such as clustering, classification, and information retrieval. It is commonly used in applications such as search engines, content recommendation systems, and sentiment analysis.
 
+## Recommendation function 
+```
+def recommend(name):
+  find_close_match = difflib.get_close_matches(movie_name, list_of_all_titles)
+  
+  try:
+    close_match = find_close_match[0]
+  except IndexError:
+    close_match = 'null'
+    print("No result found with this title")
+    return 
+  index_of_movie = dataset[dataset.title == close_match]['index'].values[0]
+  score = list(enumerate(similarity[index_of_movie]))
+  sorted_list = sorted(score, key = lambda x:x[1], reverse = True)
+
+
+  print("Movies Results : \n")
+
+  i = 1
+
+  for movie in sorted_list:
+    index = movie[0]
+    title_of_movie = dataset[dataset.index == index]['title'].values[0]
+    if(i<=5):
+      print(i, '. ', title_of_movie)
+      i += 1
+```
+
+```
+movie_name = input('Enter your favourite movie name : ')
+
+recommend(movie_name)
+```
+
 
 ### Collaborated by : [Ankit Nainwal](https://github.com/nano-bot01)
 
