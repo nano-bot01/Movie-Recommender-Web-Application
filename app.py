@@ -31,11 +31,11 @@ def recommend(movie):
 
 
 movies_dict = pickle.load(
-    open('C://Users//ankit//PycharmProjects//pythonProject//movie-recommender-system//movies_dictionary.pkl', 'rb'))
+    open('movies_dictionary.pkl', 'rb'))
 movies = pd.DataFrame(movies_dict)
 
 similarity = pickle.load(
-    open('C://Users//ankit//PycharmProjects//pythonProject//movie-recommender-system//similarity.pkl', 'rb'))
+    open('similarity.pkl', 'rb'))
 
 st.title('Movie Recommender System')
 
