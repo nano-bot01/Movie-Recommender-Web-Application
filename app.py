@@ -58,3 +58,11 @@ if st.button('Recommend'):
     with col5:
         st.text(names[4])
         st.image(posters[4])
+
+
+    st.write("\n\n\n\n\n\n\n\n\n\n\n")
+    st.markdown("******")
+
+    st.write(
+        "Contributor : [Ankit Nainwal](https://github.com/nano-bot01) \n [LinkedIn]("
+        "https://www.linkedin.com/in/ankit-nainwal1/)")
