@@ -3,6 +3,20 @@
 
 Movie Recommendation System based on TfidfVectorizer and cosine similarity function 
 
+### Quick Description 
+
+This project is a movie recommender system that uses machine learning to recommend movies to users. It uses TfidfVectorizer and cosine similarity to find similar movies. The user inputs their favorite movie and the program recommends five similar movies.
+
+The project is implemented as a web application. The user interface is simple and easy to use. The user simply enters the name of their favorite movie and the program recommends five similar movies. The recommendations are based on the content of the movies, including the plot, characters, and genre.
+
+The project uses a variety of machine learning techniques to recommend movies. The first step is to use TfidfVectorizer to convert the movie descriptions into vectors. TfidfVectorizer is a technique that converts text into vectors by considering the frequency of the words in the text and the importance of the words.
+
+Once the movie descriptions have been converted into vectors, the project uses cosine similarity to find similar movies. Cosine similarity is a measure of the similarity between two vectors. The higher the cosine similarity between two vectors, the more similar the two vectors are.
+
+ The project uses the cosine similarity between the movie vectors to recommend movies to users. For each user, the project finds the five movies with the highest cosine similarity to the user's favorite movie. These five movies are then recommended to the user.
+
+ <hr>
+
 ### Cosine Similarity : 
    Cosine similarity is a measure used to determine the similarity between two vectors in a high-dimensional space. It calculates the cosine of the angle between the two vectors and returns a value between -1 and 1.
 
